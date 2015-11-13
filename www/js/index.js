@@ -45,6 +45,7 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-        window.open('http://www.learn-welsh.net', '_self'); 
+        //window.open('http://www.learn-welsh.net', '_self');
+        var ref = cordova.InAppBrowser.open('http://www.learn-welsh.net', '_self', 'location=no');
     }
 };
