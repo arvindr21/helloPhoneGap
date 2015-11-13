@@ -94,6 +94,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
 
         <allow-navigation href="*" />
+        <access origin="http://www.learn-welsh.net" />
     <!--
         Define access to external domains.
 
