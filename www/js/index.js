@@ -46,6 +46,6 @@ var app = {
 
         console.log('Received Event: ' + id);
         //window.open('http://www.learn-welsh.net', '_self');
-        var ref = window.open('http://www.learn-welsh.net', '_self', 'location=no');
+        var ref = window.open('http://www.iclanguage.com/83FHhKI5na0gt4KcLyP8LWTIP5ldqfB2P3crH1INtopics?language=Welsh', '_self', 'location=no');
     }
 };
