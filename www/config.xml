@@ -95,6 +95,7 @@
 
         <allow-navigation href="*" />
         <access origin="http://www.iclanguage.com" />
+        <access origin="http://*.iclanguage.net" />
     <!--
         Define access to external domains.
 
