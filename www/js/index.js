@@ -37,14 +37,14 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+       // var parentElement = document.getElementById(id);
+       // var listeningElement = parentElement.querySelector('.listening');
+      //  var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+       // listeningElement.setAttribute('style', 'display:none;');
+       // receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+       // console.log('Received Event: ' + id);
         //window.open('http://www.learn-welsh.net', '_self');
         var ref = window.open('http://www.iclanguage.com/83FHhKI5na0gt4KcLyP8LWTIP5ldqfB2P3crH1INtopics?language=Welsh', '_self', 'location=no');
     }
