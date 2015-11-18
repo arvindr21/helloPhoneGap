@@ -24,9 +24,9 @@
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version"           value="3.1.0" />          <!-- all: current version of PhoneGap -->
-    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
-    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="phonegap-version"           value="cli-5.2.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="orientation"                value="landscape" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device"              value="tablet" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
     <preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
@@ -93,6 +93,9 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
 
+        <allow-navigation href="*" />
+        <access origin="http://www.iclanguage.com" />
+        <access origin="http://*.iclanguage.net" />
     <!--
         Define access to external domains.
 
@@ -101,7 +104,7 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="*"/> <!-- allow local pages -->
+   <!-- <access origin="*"/>  allow local pages -->
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
