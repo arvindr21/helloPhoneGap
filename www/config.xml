@@ -64,7 +64,7 @@
     <!-- 
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-
+    <plugin name="VideoPlayer" value="com.phonegap.plugins.video.VideoPlayer"/>
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
